@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Simple',
+  title: 'ChatFly - Home',
   description: 'Page description',
 }
 
