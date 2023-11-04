@@ -3,7 +3,7 @@ import Logo from './logo'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" data-aos="zoom-y-out">
 
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
@@ -139,7 +139,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Cruip.com. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4 cursor-pointer">&copy; chatfly.co. All rights reserved.</div>
 
         </div>
 

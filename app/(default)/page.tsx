@@ -8,6 +8,7 @@ import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
+import Pricing from '@/components/pricing'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Features />
       <FeaturesBlocks />
       <Testimonials />
+      <Pricing/>
       <Newsletter />
     </>
   )
